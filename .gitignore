@@ -1,0 +1,24 @@
+# Ignore sensitive environment files
+.env
+.env.*.backup
+
+# Ignore vendor directory (for projects using Composer)
+/vendor/
+
+# Ignore node_modules for projects using npm
+/node_modules/
+
+# Ignore temporary and cache files
+/storage/logs/*
+/storage/framework/*
+/bootstrap/cache/*
+
+# Ignore IDE and editor config files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
